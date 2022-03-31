@@ -1,0 +1,9 @@
+create table tree_type
+(name_en character varying(30),
+ name_tr character varying(30),
+ constraint tree_types_pkey primary key (name_en))
+ 
+insert into tree_type(name_en, name_tr) values
+('Oak', 'Meşe'),
+('Pine', 'Çam'),
+('Plane Tree', 'Çınar')
